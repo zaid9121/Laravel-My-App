@@ -10,7 +10,7 @@ class Post extends Model
 {
     use Searchable;
 
-    use HasFactory;
+    use HasFactory; 
 
     protected $fillable = ['title', 'body', 'user_id'];
 
